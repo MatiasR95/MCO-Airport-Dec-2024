@@ -1,6 +1,6 @@
 /*Stage 1: Exploratory Analysis
 Activity 1: Airline Flight Summary
-Goal: Count flights, cancellations, and average delays per airline to see who’s active at MCO.*/
+Goal: Count flights, cancellations, and average delays per airline to see whoâ€™s active at MCO.*/
 SELECT
 	a.Description AS Airline,
 	COUNT(*) AS TotalFlights,
