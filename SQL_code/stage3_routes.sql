@@ -1,5 +1,5 @@
 /*Stage 3: Route and Market Analysis
-Goal: Explore MCO’s key routes and market opportunities (origins, volumes) to guide expansion or marketing.
+Goal: Explore MCOâ€™s key routes and market opportunities (origins, volumes) to guide expansion or marketing.
 
 1.Top Routes by Volume
 Goal: List top 10 origin cities to MCO, with flights and delays per airline.*/
@@ -73,7 +73,7 @@ FROM AirlineShare
 ORDER BY City, AirlineRankInCity;
 
 /*3.Underserved Routes
-Goal: Find origin cities with high delays but low flights—expansion potential.*/
+Goal: Find origin cities with high delays but low flightsâ€”expansion potential.*/
 
 SELECT
 	oa.CityName AS City,
